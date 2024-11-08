@@ -1,0 +1,151 @@
+@font-face{
+    font-family:YoungSerif ;
+    src:url(YoungSerif-Regular.ttf);
+  
+}
+@font-face {
+    font-family: Outfit-VariableFont;
+    src:url(Outfit-VariableFont_wght.ttf);
+}
+
+body{
+    background-color: hsl(330, 100%, 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainBox{
+    background-color: hsl(0, 0%, 100%);
+    width:50vw;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    border-radius: 20px;
+    padding-bottom: 2vw;
+    padding-left: 2.5%;
+}
+.box2{
+    padding-left: 2em;
+    padding-bottom:0.5em;
+    padding-top: 0.5em;
+    width:95%;
+    border-radius: 10px;
+    background-color: hsl(330, 100%, 98%);
+}
+.font{
+    padding-left: 2em;
+}
+h3,h2{
+    font-family: YoungSerif;
+}
+h3{
+    color: hsl(14, 45%, 36%);
+}
+li{
+    padding-left: 1em;
+    margin-left: -1em;
+}
+.ol{
+   
+    color: hsl(14, 45%, 36%);
+    
+}
+h4{
+    
+    font-family: Outfit-VariableFont;
+    color:hsl(332, 51%, 32%);
+}
+h2{
+    color: hsl(24, 5%, 18%);
+    font-size: 2.5em;
+    font-weight: 400;
+}
+.discription{
+    margin-top: -1.2em;
+}
+p{
+    color: hsl(30, 10%, 34%);
+    font-family: Outfit-VariableFont;
+}
+b{
+    color:hsl(24, 5%, 25%);
+    font-weight: 700;
+    font-family: Outfit-VariableFont;
+}
+.num{
+    color:hsl(14, 45%, 36%);
+}
+.orgnize{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.font,.numb{
+    display:flex;
+    justify-content: left;
+    align-items: center;
+}
+.nor{
+    color: hsla(30, 18%, 87%, 0.308);
+}
+.spe{
+    color: hsla(31, 53%, 90%, 0.171);
+}
+img{
+    margin-bottom: -1.2em;
+    margin-top: 2vw;
+    width:100%;
+    height:auto;
+    border-radius: 10px;
+    
+}
+.mainBox:not(img){
+    padding-right:2.5%;
+    
+}
+@media only screen and (max-width:375px) {
+    *{
+        box-sizing: border-box;
+    }
+    body{
+        display: block;
+        height: 100%;
+        margin: 0;
+    }
+    .mainBox{
+        width:100%;
+        height:100%;
+        margin-top: 0;
+        top:0;
+        left:0;
+        margin-bottom: 0;
+        padding-top: 2em;
+        padding-bottom: 3em;
+    }
+    .box2{
+        width: 100%;
+    }
+    img{
+        position:absolute;
+        top:0;
+        right:0;
+        left:0;
+        margin-top:0;
+        margin-bottom:0;
+        border-radius: 0;
+        padding-bottom: 0;
+    }
+    h2{
+        margin-top: 24vh;
+        font-size: 2em;
+        line-height: 1em;
+    }
+    p{
+        font-size: 14px;
+    }
+    .mainBox:not(img){
+        padding-left:2em;
+        padding-right:2em;
+        
+    }
+    
+}
+    
